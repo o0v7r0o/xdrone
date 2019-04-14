@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name XD-M11C-01-12-rescue)(type Legacy)(uri ${KIPRJMOD}/XD-M11C-01-12-rescue.lib)(options "")(descr ""))
+)

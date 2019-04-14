@@ -1,0 +1,195 @@
+EESchema Schematic File Version 4
+LIBS:XD-M11C-01-12-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L XD-M11C-01-12-rescue:Conn_02x07_Top_Bottom J2
+U 1 1 5C01A34A
+P 6300 4100
+F 0 "J2" H 6350 4500 50  0000 C CNN
+F 1 "Conn_02x07_Top_Bottom" H 6350 3700 50  0000 C CNN
+F 2 "XD-M11C-01-12:M50-3610742-13p" H 6300 4100 50  0001 C CNN
+F 3 "" H 6300 4100 50  0001 C CNN
+	1    6300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L XD-M11C-01-12-rescue:Conn_01x10 J1
+U 1 1 5C01A473
+P 4800 3900
+F 0 "J1" H 4800 4400 50  0000 C CNN
+F 1 "Conn_01x10" H 4800 3300 50  0000 C CNN
+F 2 "XD-M11C-01-12:XD-SC-10p" H 4800 3900 50  0001 C CNN
+F 3 "" H 4800 3900 50  0001 C CNN
+	1    4800 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5C01A51D
+P 6000 4700
+F 0 "#PWR03" H 6000 4450 50  0001 C CNN
+F 1 "GND" H 6000 4550 50  0000 C CNN
+F 2 "" H 6000 4700 50  0001 C CNN
+F 3 "" H 6000 4700 50  0001 C CNN
+	1    6000 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3800 6000 3800
+Wire Wire Line
+	6000 3650 6000 3800
+Wire Wire Line
+	6100 3900 6000 3900
+Connection ~ 6000 3900
+Wire Wire Line
+	6100 4400 6000 4400
+Connection ~ 6000 4400
+Wire Wire Line
+	6000 3650 6600 3650
+Wire Wire Line
+	6600 3650 6600 3800
+Connection ~ 6000 3800
+$Comp
+L power:GND #PWR01
+U 1 1 5C01A675
+P 5100 4600
+F 0 "#PWR01" H 5100 4350 50  0001 C CNN
+F 1 "GND" H 5100 4450 50  0000 C CNN
+F 2 "" H 5100 4600 50  0001 C CNN
+F 3 "" H 5100 4600 50  0001 C CNN
+	1    5100 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4400 5100 4400
+Wire Wire Line
+	5100 3500 5100 3600
+Wire Wire Line
+	5000 4300 5100 4300
+Connection ~ 5100 4400
+Wire Wire Line
+	5000 3500 5100 3500
+Connection ~ 5100 4300
+Wire Wire Line
+	5000 3600 5100 3600
+Connection ~ 5100 3600
+Wire Wire Line
+	5000 3700 5800 3700
+Wire Wire Line
+	5800 3700 5800 4000
+Wire Wire Line
+	5800 4000 6100 4000
+Wire Wire Line
+	5000 3800 5700 3800
+Wire Wire Line
+	5700 3800 5700 3550
+Wire Wire Line
+	5700 3550 6700 3550
+Wire Wire Line
+	6700 3550 6700 3900
+Wire Wire Line
+	6700 3900 6600 3900
+$Comp
+L power:VCC #PWR04
+U 1 1 5C01A711
+P 6900 3500
+F 0 "#PWR04" H 6900 3350 50  0001 C CNN
+F 1 "VCC" H 6900 3650 50  0000 C CNN
+F 2 "" H 6900 3500 50  0001 C CNN
+F 3 "" H 6900 3500 50  0001 C CNN
+	1    6900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4200 6900 4200
+Wire Wire Line
+	6900 4300 6900 4200
+Wire Wire Line
+	6600 4300 6900 4300
+Connection ~ 6900 4200
+Wire Wire Line
+	5000 3900 5700 3900
+Wire Wire Line
+	5700 3900 5700 4000
+Wire Wire Line
+	5700 4300 5850 4300
+Wire Wire Line
+	5000 4000 5700 4000
+Connection ~ 5700 4000
+$Comp
+L power:VCC #PWR02
+U 1 1 5C01A7AF
+P 5850 4200
+F 0 "#PWR02" H 5850 4050 50  0001 C CNN
+F 1 "VCC" H 5850 4350 50  0000 C CNN
+F 2 "" H 5850 4200 50  0001 C CNN
+F 3 "" H 5850 4200 50  0001 C CNN
+	1    5850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4200 5850 4300
+Connection ~ 5850 4300
+NoConn ~ 6100 4100
+NoConn ~ 6100 4200
+NoConn ~ 6600 4400
+Wire Wire Line
+	5000 4200 5300 4200
+Wire Wire Line
+	5300 4200 5300 4550
+Wire Wire Line
+	5300 4550 6650 4550
+Wire Wire Line
+	6650 4550 6650 4100
+Wire Wire Line
+	6650 4100 6600 4100
+Wire Wire Line
+	5000 4100 5400 4100
+Wire Wire Line
+	5400 4650 6700 4650
+Wire Wire Line
+	6700 4000 6600 4000
+Wire Wire Line
+	6000 3900 6000 4400
+Wire Wire Line
+	6000 3800 6000 3900
+Wire Wire Line
+	5100 4400 5100 4600
+Wire Wire Line
+	5100 4300 5100 4400
+Wire Wire Line
+	5100 3600 5100 4300
+Wire Wire Line
+	6900 4200 6900 3500
+Wire Wire Line
+	5700 4000 5700 4300
+Wire Wire Line
+	5850 4300 6100 4300
+Text Label 5400 3700 0    50   ~ 0
+I1_N
+Text Label 5400 3800 0    50   ~ 0
+I1_P
+Wire Wire Line
+	5400 4100 5400 4650
+Wire Wire Line
+	6700 4000 6700 4650
+Text Label 5500 4550 0    50   ~ 0
+I2_N
+Text Label 5500 4650 0    50   ~ 0
+I2_P
+Wire Wire Line
+	6000 4400 6000 4700
+$EndSCHEMATC
